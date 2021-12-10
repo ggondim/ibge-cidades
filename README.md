@@ -3,9 +3,20 @@ Base de municípios do IBGE em JSON
 
 ## Estrutura
 
-O arquivo [cidades.json](cidades.json) é um array de objetos em JSON, onde cada propriedade é uma `string`.
+O arquivo [municipios.json](municipios.json) é um array de objetos em JSON, onde cada propriedade é uma `string`.
 
-As seguintes propriedades estão disponíveis em cada objeto: `_id`, `ufCodigo`, `ufNome`, `ufSigla`, `mesorregiaoCodigo`, `mesorregiaoNome`, `microrregiaoCodigo`, `microrregiaoNome`, `municipioCodigo`, `municipioCodigoAbreviado`, `municipioNome`.
+As seguintes propriedades estão disponíveis em cada objeto:
+- `_id`
+- `ufCodigo`
+- `ufNome`
+- `ufSigla`
+- `mesorregiaoCodigo`
+- `mesorregiaoNome`
+- `microrregiaoCodigo`
+- `microrregiaoNome`
+- `municipioCodigo`
+- `municipioCodigoAbreviado`
+- `municipioNome`
 
 A última atualização contém **5.770 municípios**.
 
